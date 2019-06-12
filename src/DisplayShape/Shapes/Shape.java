@@ -1,4 +1,4 @@
-package DisplayShape;
+package DisplayShape.Shapes;
 
 public abstract class Shape {
 

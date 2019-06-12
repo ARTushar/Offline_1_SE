@@ -1,4 +1,4 @@
-package DisplayShape;
+package DisplayShape.Shapes;
 
 public class RectangleB extends Rectangle {
     private String resolution;

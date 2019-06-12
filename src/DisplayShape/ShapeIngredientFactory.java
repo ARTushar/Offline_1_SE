@@ -1,5 +1,7 @@
 package DisplayShape;
 
+import DisplayShape.Shapes.Shape;
+
 public interface ShapeIngredientFactory {
     Shape getCircle(double radius);
     Shape getRectangle(double length, double width);

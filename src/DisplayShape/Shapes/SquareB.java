@@ -1,4 +1,4 @@
-package DisplayShape;
+package DisplayShape.Shapes;
 
 public class SquareB extends Square {
     private String resolution;

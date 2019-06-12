@@ -1,10 +1,10 @@
-package DisplayShape;
+package DisplayShape.Shapes;
 
-public class RectangleC extends Rectangle {
+public class CircleC extends Circle {
     private String resolution;
 
-    public RectangleC(double length, double width) {
-        super(length, width);
+    public CircleC(double radius) {
+        super(radius);
         this.resolution = "550*430";
     }
 

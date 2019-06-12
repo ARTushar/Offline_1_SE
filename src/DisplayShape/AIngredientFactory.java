@@ -1,5 +1,7 @@
 package DisplayShape;
 
+import DisplayShape.Shapes.*;
+
 public class AIngredientFactory implements ShapeIngredientFactory {
 
     @Override

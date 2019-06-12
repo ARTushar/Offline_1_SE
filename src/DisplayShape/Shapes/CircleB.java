@@ -1,11 +1,11 @@
-package DisplayShape;
+package DisplayShape.Shapes;
 
-public class CircleA extends Circle {
+public class CircleB extends Circle {
     private String resolution;
 
-    public CircleA(double radius) {
+    public CircleB(double radius) {
         super(radius);
-        this.resolution = "200*200";
+        this.resolution = "350*250";
     }
 
     @Override

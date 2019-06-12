@@ -1,5 +1,7 @@
 package DisplayShape;
 
+import DisplayShape.Shapes.Shape;
+
 public class ShapeFactory {
     private ShapeIngredientFactory ingredientFactory;
 
@@ -14,7 +16,7 @@ public class ShapeFactory {
             System.out.println("Unknown Computer Type");
     }
 
-    public  Shape getShape(String shapeType, double ...a) {
+    public Shape getShape(String shapeType, double ...a) {
         if(shapeType == null)
             return null;
         else if(shapeType.equals("circle")) {

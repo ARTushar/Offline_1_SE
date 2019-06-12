@@ -1,4 +1,4 @@
-package DisplayShape;
+package DisplayShape.Shapes;
 
 public abstract class Circle extends Shape {
     private String name;

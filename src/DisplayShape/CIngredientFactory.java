@@ -1,5 +1,7 @@
 package DisplayShape;
 
+import DisplayShape.Shapes.*;
+
 public class CIngredientFactory implements ShapeIngredientFactory {
     @Override
     public Shape getCircle(double radius) {

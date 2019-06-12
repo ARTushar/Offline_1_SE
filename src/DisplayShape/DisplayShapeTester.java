@@ -1,5 +1,7 @@
 package DisplayShape;
 
+import DisplayShape.Shapes.Shape;
+
 public class DisplayShapeTester {
 
     public static void main(String[] args) {

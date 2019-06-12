@@ -1,4 +1,4 @@
-package DisplayShape;
+package DisplayShape.Shapes;
 
 public class TriangleA extends Trangle {
     private String resolution;
