@@ -9,6 +9,7 @@ public abstract class Square extends Shape {
     public Square(double length) {
         this.name = "Square";
         this.length = length;
+        display();
     }
 
     @Override

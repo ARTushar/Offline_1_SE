@@ -11,6 +11,7 @@ public abstract class Trangle extends Shape {
         this.sideB = sideB;
         this.sideC = sideC;
         this.name = "Triangle";
+        display();
     }
 
     @Override

@@ -8,7 +8,9 @@ public abstract class Rectangle extends Shape {
     public Rectangle(double length, double width) {
         this.length = length;
         this.width = width;
-        this.name = "Rectagle";
+        this.name = "Rectangle";
+        display();
+
     }
 
     @Override

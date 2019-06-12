@@ -7,6 +7,7 @@ public abstract class Circle extends Shape {
     public Circle(double radius) {
         name = "Circle";
         this.radius = radius;
+        display();
     }
 
     @Override
