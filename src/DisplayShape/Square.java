@@ -1,7 +1,5 @@
 package DisplayShape;
 
-import java.util.SortedMap;
-
 public abstract class Square extends Shape {
     private String name;
     private double length;

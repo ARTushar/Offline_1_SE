@@ -1,7 +1,5 @@
 package DisplayShape;
 
-import javax.sound.midi.Soundbank;
-
 public class ShapeFactory {
     private ShapeIngredientFactory ingredientFactory;
 

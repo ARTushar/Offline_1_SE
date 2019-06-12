@@ -1,15 +1,15 @@
 package DisplayShape;
 
 public class CircleB extends Circle {
-    private String resoulution;
+    private String resolution;
 
     public CircleB(double radius) {
         super(radius);
-        this.resoulution = "350*250";
+        this.resolution = "350*250";
     }
 
     @Override
     public String getResolution() {
-        return resoulution;
+        return resolution;
     }
 }
