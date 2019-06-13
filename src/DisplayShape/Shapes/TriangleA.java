@@ -1,6 +1,6 @@
 package DisplayShape.Shapes;
 
-public class TriangleA extends Trangle {
+public class TriangleA extends Triangle {
     private String resolution;
 
     public TriangleA(double sideA, double sideB, double sideC) {

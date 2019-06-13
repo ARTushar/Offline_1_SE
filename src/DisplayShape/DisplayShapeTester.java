@@ -17,7 +17,7 @@ public class DisplayShapeTester {
         assert test != null;
         test.print();
 
-        test = factory.getShape("square", 4.0);
+        test = factory.getShape("square", 400);
         assert test != null;
         test.print();
 
