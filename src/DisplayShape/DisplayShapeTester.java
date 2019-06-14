@@ -24,7 +24,5 @@ public class DisplayShapeTester {
         test = factory.getShape("triangle", 2.0, 3.0, 4.0);
         assert test != null;
         test.print();
-
-
     }
 }
