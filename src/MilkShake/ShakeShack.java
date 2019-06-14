@@ -1,17 +1,13 @@
 package MilkShake;
 
-import MilkShake.Shake;
-import MilkShake.ShakeShackDirector;
-
-import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
 import java.util.Iterator;
 
 public class ShakeShack {
 
     public Shake produceShake(int type, boolean isLactoseFree, boolean hasCandy, boolean hasCookie) {
-        Shake shake = null;
-        ShakeShackDirector shakeCreator = null;
+        Shake shake;
+        ShakeShackDirector shakeCreator;
 
         if (type == 1) {
             shakeCreator = new ShakeShackDirector(new ChocolateShakeBuilder());
